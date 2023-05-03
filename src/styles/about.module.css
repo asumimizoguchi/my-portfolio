@@ -1,0 +1,19 @@
+.about {
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    font-family: "Montserrat";
+    margin-top: 60px;
+    color: white;
+}
+
+.projects {
+    display: grid;
+    grid-gap: 80px; 
+    margin: 80px 20px;
+    color: rgba(0, 0, 0, 0.665);
+}
+
+.contact {
+    color: rgba(99, 98, 120, 0.996);
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/csc2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+.navbar, a{
+    margin-right: 50px;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Montserrat";
+    color: white;
+}
+
+body{
+    /*background: radial-gradient(at top left, rgba(146,43,225,1) 0%, rgba(43,9,107,1) 100%);*/
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(at top right, rgb(221, 238, 250) 10%,rgb(105, 167, 225) 100%);
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    margin-left: calc(-50vw + 50%);
+    width: 100vw;
+}
+.layout, p {
+    color: rgba(99, 98, 120, 0.996);
+}
+
+.title {
+    width: 200px;
+}
+
+p.AsumiPort {
+    text-align: right;
+    color: rgba(99, 98, 120, 0.996);
+    
+}
+
+h2.myName {
+    font-size: 15px;
+    margin-bottom: 0px;
+    text-align: right;
+    color: rgba(99, 98, 120, 0.996);
+}
+
+a {
+    padding-top: 40px;
+}
+
+.links {
+    display: flex;
+    /*justify-content: center; */
+}
+
+html, body {
+    min-height: 100%;
+}
+
+p {
+    margin-top: 0px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+/* latout & nav */
+.layout {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+nav .links {
+    display: inline-block;
+    text-align: right;
+}
+
+nav a {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    border-bottom: 3px solid transparent;
+    color:rgba(99, 98, 120, 0.996)
+}
+nav a:hover {
+    border-color: rgb(236, 138, 85);
+}
+
+
