@@ -8,6 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/my-portfolio",
   plugins: [
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
