@@ -36,7 +36,8 @@ export default function Home({ data }) {
 // export page query
 export const query = graphql`
 query AboutPage {
-    about: allMarkdownRemark(sort: {frontmatter: {title: ASC}} filter: {fileAbsolutePath: {regex: "/(about)/"}}) {
+    about: allMarkdownRemark(sort: {frontmatter: {title: ASC}}
+       filter: {fileAbsolutePath: {regex: "/(about)/"}}) {
       nodes {
         frontmatter {
           slug
